@@ -28,3 +28,18 @@ console.log("form array ",formArray)//convert string to an array of character fo
 //Fill all the array elements with a static value: with start index to end index  otherwise filled fullarray
 var fillArray = ["Banana", "Orange", "Apple", "Mango"];
 console.log("fillarray ", fillArray.fill("Raj",2,4))
+
+
+
+OutPut
+
+> "element exist or not in an array " false " from an array " Array [1, 2, 3]
+> "element exist or not in an array " true " from an array " Array [1, 2, 3]
+> "Max number in an array " 5 " from an array " Array [1, 2, 3, 5]
+> "Sum of array " 11
+> "remove element with basd on the index " Array ["Apple"] Array ["Banana", "Orange", "Mango"]
+> "joins " "Banana!Orange!Apple!Mango"
+> "removed value " "Banana" " updated original array " Array ["Orange", "Apple", "Mango"]
+> "Size chnage " 5 " original array " Array ["Raj", "Banana", "Orange", "Apple", "Mango"]
+> "form array " Array ["r", "a", "j", "a", "n"]
+> "fillarray " Array ["Banana", "Orange", "Raj", "Raj"]
